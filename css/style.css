@@ -1,0 +1,36 @@
+body {
+  background: #FFDCD1;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  color: #FF8BA0;
+  margin: 16px;
+}
+
+.gridContainer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  -webkit-column-gap: 30px;
+          column-gap: 30px;
+  margin-left: 10px;
+  margin-top: 4em;
+}
+
+.gridContainer h2 {
+  text-align: center;
+}
+
+img {
+  max-height: 100%;
+  width: 600px;
+}
+
+.hidden {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
